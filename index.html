@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="img/1.jpg" alt="">
+            <div class="caption">Image 1</div>
+        </div>
+        <div class="slide">
+            <img src="img/2.jpg" alt="">
+            <div class="caption">Image 2</div>
+        </div>
+        <div class="slide">
+            <img src="img/3.jpg" alt="">
+            <div class="caption">Image 3</div>
+        </div>
+        <div class="slide">
+            <img src="img/4.jpg" alt="">
+            <div class="caption">Image 4</div>
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>
